@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+html {
+  background-color: rgb(247, 202, 247);
+}
+
+.texto {
+  display: inline-block;
+  width: 50%;
+}
+
+#ingreso {
+  width: 40rem;
+  height: 30rem;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  background-color: rgb(247, 202, 247);
+  border-style: none;
+  margin-left: 5rem;
+  outline: none;
+}
+
+#ingreso::placeholder {
+  color: black;
+}
+
+p {
+  font-size: large;
+  color: black;
+  margin-left: 20%;
+}
+
+.cifrador {
+  width: 15rem;
+  height: 3rem;
+  background-color: rgb(163, 80, 241);
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 1rem;
+  margin-left: 20%;
+  color: black;
+  font-weight: bold;
+}
+
+.cifrador:hover,
+.descifrador:hover,
+.boton_copiar:hover {
+  background-color: rgb(213, 184, 241);
+}
+
+.descifrador {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 1rem;
+  background-color: rgb(190, 147, 231);
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.mensaje {
+  display: inline-block;
+  float: right;
+  background-color: #fff;
+  width: 30%;
+  height: 36rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  border-radius: 10%;
+}
+
+.mensaje_devuelto {
+  width: 90%;
+  height: 10rem;
+  background-color: transparent;
+  border-style: none;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.boton_copiar {
+  display: block;
+  background-color: rgb(163, 80, 241);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(182, 147, 215);
+  margin-top: 2rem;
+  padding: 3rem;
+}
